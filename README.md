@@ -8,9 +8,9 @@ Repository Link : https://web.archive.org/web/20150906081542/http://yann.lecun.c
 The dataset is first converted into csv format before loading in the network. 
 
 Performance Results:
-total number of correct predictions 9120.0
-Total predictions 10000.0
-performance =  0.912
+- Total number of correct predictions 9120.0
+- Total predictions 10000.0
+- performance =  0.912
 
 Future work 
 1. Improve the accuracy.
