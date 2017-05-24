@@ -51,11 +51,9 @@ class NeuralNetwork:
         self.layer2 = outputnodes
         self.lr = learningrate
         # weights connecting l0 to l1 
-        #self.w1 = np.random.normal(0.0, pow(self.layer1, -0.5), (self.layer1, self.layer0))
         self.w1 = 2*np.random.random((self.layer1,self.layer0)) - 1
         
         # weights connecting l1 to l2
-        #self.w2 = np.random.normal(0.0, pow(self.layer2, -0.5), (self.layer2, self.layer1))
         self.w2 = 2*np.random.random((self.layer2,self.layer1)) - 1
 
         pass
